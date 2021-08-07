@@ -37,7 +37,7 @@ def main():
     with Alty:
         while True:
             print("💬 [INFO] Starting To Check Uptime..")
-            TEXT = f"<b>👾 @{UPDATE_CHANNEL} Our Bot's Status (Updating Every  {round(TIME / 60)} Hours)</b>\n\n<b>📜 BOTS :</b>\n\n"
+            TEXT = f"<b>🤖 @{UPDATE_CHANNEL} Our Bot's Status 🤖 (Updating Every  {round(TIME / 60)} Hours 📈)</b>\n\n<b>📜 BOT LIST :</b>\n\n"
 
             for bot in BOTS:
                 print(f"💬 [INFO] Checking @{bot}")
